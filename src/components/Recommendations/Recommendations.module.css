@@ -1,0 +1,10 @@
+.Recommendations > div {
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+}
+.Recommendations > div p {
+  font-size: 1.2em;
+  margin-bottom: 12px;
+}
