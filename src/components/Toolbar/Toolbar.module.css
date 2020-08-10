@@ -1,0 +1,39 @@
+.Toolbar {
+  display: flex;
+  height: 56px;
+  padding: 0 16px;
+}
+.Toolbar > * {
+  margin: auto 0;
+}
+.Toolbar img {
+}
+.Toolbar .Searchbar {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  max-width: 640px;
+}
+.Toolbar .Searchbar input {
+  width: 100%;
+  border: 1px solid #bbb;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+
+  font-size: 17px;
+  padding-left: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.Toolbar .Searchbar input:focus {
+  /* outline: 1px solid rgb(103, 103, 255); */
+  z-index: 50;
+  border-color: rgb(103, 103, 255);
+}
+.Toolbar .Searchbar button {
+  background: transparent;
+  border: 1px solid #bbb;
+  border-left: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
