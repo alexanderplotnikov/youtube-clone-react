@@ -1,0 +1,59 @@
+.Description {
+  margin-top: 20px;
+}
+.Description h2 {
+  font-size: 22px;
+}
+
+/*Info menu*/
+.InfoMenu {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  height: 40px;
+}
+.InfoMenu > p {
+  font-size: 18px;
+  color: #606060;
+}
+.InfoMenu div {
+  margin-left: auto;
+}
+
+/*Description body*/
+.Info {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.Info > div {
+  display: flex;
+  margin-bottom: 12px;
+}
+.Info > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+.Info > div > div p:last-child {
+  color: #606060;
+  font-size: 0.9em;
+}
+.Info img {
+  border: 1px solid black;
+
+  border-radius: 100%;
+  height: 48px;
+  width: 48px;
+  margin-right: 16px;
+}
+.Info button {
+  margin-left: auto;
+}
+
+.Info > p {
+  margin-left: 64px;
+}
