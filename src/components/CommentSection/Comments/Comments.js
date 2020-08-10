@@ -3,8 +3,6 @@ import AddComment from '../AddComment/AddComment';
 import classes from './Comments.module.css';
 
 const comments = (props) => {
-  const commentsList = [{ message: 'first comment' }];
-
   return (
     <article className={classes.Comment}>
       <img alt="avatar" />

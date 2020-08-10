@@ -18,15 +18,15 @@ const description = (props) => {
       </div>
       <div className={classes.Info}>
         <div>
-          <img alt="Photo" />
+          <img alt="avatar" />
           <div>
             <p>Name</p>
             <p>2.26M subscribers</p>
           </div>
-
           <button>SUBSCRIBE</button>
         </div>
         <p>Lorem ipsum a bunch of words</p>
+        <button>Show more</button>
       </div>
     </section>
   );

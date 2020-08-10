@@ -8,9 +8,9 @@ const player = (props) => {
         <iframe
           title="formula 1"
           src="https://www.youtube.com/embed/ytLAOiYnNtU"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          frameBorder="0"
+          // allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
         ></iframe>
       </div>
     </section>

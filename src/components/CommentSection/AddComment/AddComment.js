@@ -3,7 +3,6 @@ import classes from './AddComment.module.css';
 
 const AddComment = (props) => {
   const [show, setShow] = useState(false);
-  console.log(props.btnText);
   const replyStyle = {
     width: '24px',
     height: '24px',

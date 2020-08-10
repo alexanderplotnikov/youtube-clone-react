@@ -12,29 +12,29 @@ const sidebar = (props) => {
       <div>
         <nav>
           <section>
-            <a>
+            <a href="null">
               <img alt="icon" />
               <p>Home</p>
             </a>
-            <a>
+            <a href="null">
               <img alt="icon" />
               <p>Trending</p>
             </a>
-            <a>
+            <a href="null">
               <img alt="icon" />
               <p>Subscriptions</p>
             </a>
           </section>
           <section>
-            <a>
+            <a href="null">
               <img alt="icon" />
               <p>Library</p>
             </a>
-            <a>
+            <a href="null">
               <img alt="icon" />
               <p>History</p>
             </a>
-            <a>
+            <a href="null">
               <img alt="icon" />
               <p>Your videos</p>
             </a>
