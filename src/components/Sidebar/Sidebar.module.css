@@ -1,0 +1,68 @@
+.Sidebar {
+  position: fixed;
+  width: 240px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  background-color: white;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-out;
+}
+.Sidebar > div:not(.Logo) {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 56px);
+  overflow-y: scroll;
+}
+.Sidebar .Logo {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding-left: 16px;
+}
+.Sidebar nav {
+  margin-right: 16px;
+}
+.Sidebar section {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 5px 0;
+}
+.Sidebar section > a {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding-left: 16px;
+  cursor: pointer;
+}
+.Sidebar section > a:hover {
+  background-color: #eee;
+}
+.Sidebar section > a img {
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.Sidebar footer {
+  font-size: 0.9em;
+  color: #606060;
+  margin: 0 24px 16px 16px;
+  margin-top: auto;
+  cursor: pointer;
+}
+.Sidebar footer p {
+  line-height: 1.3em;
+  font-weight: 500;
+}
+.Sidebar small {
+  display: block;
+  color: #999;
+  padding-top: 16px;
+}
