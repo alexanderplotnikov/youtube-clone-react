@@ -2,10 +2,11 @@ import React from 'react';
 import classes from './Sidebar.module.css';
 
 const sidebar = (props) => {
+  const style = props.show ? 'translateX(0)' : 'translateX(-100%)';
   return (
-    <aside className={classes.Sidebar}>
+    <aside className={classes.Sidebar} style={{ transform: style }}>
       <div className={classes.Logo}>
-        <button>Side</button>
+        <button onClick={props.clicked}>Side</button>
         <img alt="youtube logo" />
       </div>
       <div>

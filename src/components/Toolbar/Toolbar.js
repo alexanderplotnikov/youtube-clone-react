@@ -4,7 +4,7 @@ import classes from './Toolbar.module.css';
 const toolbar = (props) => {
   return (
     <header className={classes.Toolbar}>
-      <button>Side</button>
+      <button onClick={props.clicked}>Side</button>
       <img alt="youtube logo" />
       <div className={classes.Searchbar}>
         <input type="text" placeholder="Search" />
