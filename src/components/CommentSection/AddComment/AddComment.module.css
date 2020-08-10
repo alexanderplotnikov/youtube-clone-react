@@ -1,0 +1,28 @@
+.AddComment {
+  display: flex;
+  position: relative;
+}
+.AddComment img {
+  display: block;
+  margin-right: 16px;
+
+  border: 1px solid black;
+  border-radius: 100%;
+}
+.AddComment input {
+  height: 21px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+}
+.AddComment input:focus {
+  border-width: 2px;
+  border-color: #000;
+}
+.AddComment div {
+  position: absolute;
+  right: 0;
+  top: 28px;
+}
