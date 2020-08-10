@@ -1,0 +1,15 @@
+.Player div {
+  border: 1px solid red;
+  box-sizing: border-box;
+  position: relative;
+  padding-bottom: 56.25%;
+}
+.Player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 1280px;
+  max-height: 720px;
+}
